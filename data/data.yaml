@@ -1,0 +1,8 @@
+names:
+  0: wood
+  1: windows
+  2: green panel
+  3: lights
+path: .
+train: train.txt
+val: val.txt
