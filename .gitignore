@@ -1,3 +1,6 @@
 **/images/
 **/images_origin/
 */venv/
+**/.vscode/
+**/runs/**
+**.pt

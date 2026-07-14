@@ -6,8 +6,8 @@ def main():
 
     # The data argument points to your master configuration file.
     results = model.train(
-        data="../data/data.yaml",  # Path relative to the scripts/ folder
-        epochs=100,  # Total number of training cycles
+        data="data/data.yaml",  # Path relative to the scripts/ folder
+        epochs=300,  # Total number of training cycles
         imgsz=640,  # Resize images to 640x640 during training
         batch=16,  # Number of images processed at once (lower this to 8 or 4 if you get memory errors)
         device=0,  # Set to 0 to use your GPU, or set to "cpu" if you don't have a dedicated GPU
